@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+
+		
+        <link rel="stylesheet" href="css/site.css"/>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="js/search.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="sites/pregunta/preguntas.css"/>
+    </head>
+    <body>
+        
+    <div data-role="page" data-theme='a'>
+        <div class="panel-dal" data-role="panel" data-display="overlay" data-swipe-close="true" id="mypanel" data-theme="b">
+            <ul data-role="listview" class="menu-panel">
+                <li class="menu-subheader-main">
+                    <div class="menu-subheader">
+                        <img class="user-img" src="img/avatar-01.png">
+                        <br>
+                        <h1>
+                            Fabrizzio Rivera
+                        </h1>
+                        <div class="corner-subheader"><span>438</span><span> puntos civicos</span></div>
+                    </div>
+                </li>
+                <li class="menu-li" data-icon='false'>
+                    <div class="menu-subheader">
+                        <a style="color: black; text-decoration: none;" rel="external" href="sites/trending/index.html">Trending</a>
+                    </div>
+                </li>
+                <li class="menu-li" data-icon='false'>
+                    <div class="menu-subheader">
+                        Diputados
+                    </div>
+                </li>
+                <li class="menu-li" data-icon='false'>
+                    <div class="menu-subheader">
+                        <a style="color: black; text-decoration: none;" rel="external" href="sites/pregunta/index.html">Enviar un post</a>
+                    </div>
+                </li>
+                <li class="menu-li" data-icon='false'>
+                    <div class="menu-subheader">
+                        <a style="color: black; text-decoration: none;" rel="external" href="index.html">Cerrar Sesi&oacute;n</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+            <a href="#mypanel" data-ajax="false" data-transition="turn"><img src="img/menu.png" alt="menu"></a>
+            <h1><span style="font-weight: 100; font-size: x-large;">Diputados</span></h1>
+        </div>
+        
+        <div data-role="content">   
+        
+            <ul id="listview_data" data-filter="true" data-role="listview" data-inset="false" data-icon="false" data-divider-theme="b">            
+                <li>
+                    <a>
+                        <img width="180px" height="190px;" src="img/ajcip.jpg">
+                        <h2>Edgar Ajcip</h2>
+                        <p>
+                            <span>
+                                <b>Partido Postulante:</b>
+                            </span>
+                            <span id="postul">
+                                LIDER
+                            </span>
+                            <span>/</span>
+                            <br>
+                            <span>
+                                <b>Partido Actual:</b>
+                            </span>
+                            <span id="postul">
+                                IND
+                            </span>
+                        </p>
+                        <p class="ui-li-aside"><b>23%</b></p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="img/alejos.jpg">
+                        <h2>Jos&#233; Roberto Alejos</h2>
+                        <p>
+                            <span>
+                                <b>Partido Postulante:</b>
+                            </span>
+                            <span id="postul">
+                                UNE
+                            </span>
+                            <span>/</span>
+                            <br>
+                            <span>
+                                <b>Partido Actual:</b>
+                            </span>
+                            <span id="postul">
+                                TODOS
+                            </span>
+                        </p>
+                        <p class="ui-li-aside"><b>47%</b></p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="img/mirza.jpg">
+                        <h2>Mirza Arreaga</h2>
+                        <p>
+                            <span>
+                                <b>Partido Postulante:</b>
+                            </span>
+                            <span id="postul">
+                                LIDER
+                            </span>
+                            <span>/</span>
+                            <br>
+                            <span>
+                                <b>Partido Actual:</b>
+                            </span>
+                            <span id="postul">
+                                LIDER
+                            </span>
+                        </p>
+                        <p class="ui-li-aside"><b>56%</b></p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="img/edgar.jpg">
+                        <h2>Edgar Ar&#233;valo</h2>
+                        <p>
+                            <span>
+                                <b>Partido Postulante:</b>
+                            </span>
+                            <span id="postul">
+                                FRG
+                            </span>
+                            <span>/</span>
+                            <br>
+                            <span>
+                                <b>Partido Actual:</b>
+                            </span>
+                            <span id="postul">
+                                PP
+                            </span>
+                        </p>
+                        <p class="ui-li-aside"><b>89%</b></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    
+    </body>
+</html>

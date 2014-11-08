@@ -1,0 +1,159 @@
+<head>
+		<meta charset="ISO-8859-1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../../css/font-awesome.min.css" />
+        <link rel="stylesheet" href="../../css/jquery.mobile-1.4.5.css" />
+
+		
+        <link rel="stylesheet" href="../../css/site.css"/>
+		<link rel="stylesheet" href="../../css/material-design-light.css"/>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>		
+		<link rel="stylesheet" href="trending.css"/>
+	</head>
+	<body>
+		
+		<div class="login-body" data-role="page" data-theme='a'>
+			<div class="panel-dal" data-role="panel" data-display="overlay" data-swipe-close="true" id="mypanel" data-theme="b">
+				<ul data-role="listview" class="menu-panel">
+					<li class="menu-subheader-main">
+						<div class="menu-subheader">
+							<img class="user-img" src="../../img/avatar-01.png">
+							<br>
+							<h1>
+								Fabrizzio Rivera
+							</h1>
+							<div class="corner-subheader"><span>438</span><span> puntos civicos</span></div>
+						</div>
+					</li>
+					<li class="menu-li" data-icon='false'>
+						<div class="menu-subheader">
+							Trending
+						</div>
+					</li>
+					<li class="menu-li" data-icon='false'>
+						<div class="menu-subheader">
+							<a style="color: black; text-decoration: none;" rel="external" href="../../diputados.html">Diputados</a>
+						</div>
+					</li>
+					<li class="menu-li" data-icon='false'>
+						<div class="menu-subheader">
+							<a style="color: black; text-decoration: none;" rel="external" href="../pregunta/index.html">Enviar un post</a>
+						</div>
+					</li>
+					<li class="menu-li" data-icon='false'>
+						<div class="menu-subheader">
+							<a style="color: black; text-decoration: none;" rel="external" href="../../index.html">Cerrar Sesi&oacute;n</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+				<a href="#mypanel" data-ajax="false" data-transition="turn"><img src="../../img/menu.png" alt="menu"></a>
+				<h1><span style="font-size: 24px; font-weight: 100;">Intercambio</span></h1>
+				<ul class="navs-tabs">
+					<li class="active"><a>Recomendados</a></li>
+				</ul>
+			</div>
+			<div style="padding: 10px;">
+				<ul id="listview_data" data-filter="true" data-role="listview" data-inset="false" data-icon="false" data-divider-theme="b">            
+					<li>
+						<a rel="external" href="../pregunta/responder.html">
+							<img src="../../img/Congreso.jpg">
+							<h2>Manejo de fondos</h2>
+							<p>
+								<span>
+									<b>Para diputado(s):</b>
+								</span>
+								<span class="tag">
+									Todos
+								</span>
+							</p>
+							<div class="ui-li-aside large-side"><p class=""><b>3748</b></p></div>
+						</a>
+					</li>
+					<li>
+						<a >
+							<img src="../../img/150px-Todos_Logo.svg.png">
+							<h2>Lavado de dinero</h2>
+							<p>
+								<span>
+									<b>Para diputado(s):</b>
+								</span>
+								<span class="tag todos">
+									TODOS
+								</span>
+								<span class="tag pp">
+									PP
+								</span>
+							</p>
+							<div class="ui-li-aside large-side"><p class=""><b>1816</b></p></div>
+						</a>
+					</li>
+					<li>
+						<a >
+							<img src="../../img/135px-LIDER_Logo.svg.png">
+							<h2>Resolucion de proyectos</h2>
+							<p>
+								<span>
+									<b>Para diputado(s):</b>
+								</span>
+								<span class="tag lider">
+									Sergio Celis
+								</span>
+							</p>
+							<div class="ui-li-aside large-side unvoted"><p><b>1748</b></p></div>
+						</a>
+					</li>
+					<li>
+						<a >
+							<img src="../../img/130px-UNE_Logo.svg.png">
+							<h2>Infraestructura</h2>
+							<p>
+								<span>
+									<b>Para diputado(s):</b>
+								</span>
+								<span class="tag une">
+									Carlos Taracena
+								</span>
+							</p>
+							<div class="ui-li-aside large-side unvoted"><p class=""><b>1679</b></p></div>
+						</a>
+					</li>
+					<li>
+						<a >
+							<img src="../../img/125px-PP_Logo.svg.png">
+							<h2>Planes futuros</h2>
+							<p>
+								<span>
+									<b>Para diputado(s):</b>
+								</span>
+								<span class="tag pp">
+									PP
+								</span>
+							</p>
+							<div class="ui-li-aside large-side"><p class=""><b>1430</b></p></div>
+						</a>
+					</li>
+					<li>
+						<a >
+							<img src="../../img/135px-LIDER_Logo.svg.png">
+							<h2>Lavado de dinero</h2>
+							<p>
+								<span>
+									<b>Para diputado(s):</b>
+								</span>
+								<span class="tag lider">
+									LIDER
+								</span>
+								<span class="tag pp">
+									PP
+								</span>
+							</p>
+							<div class="ui-li-aside large-side"><p class=""><b>1816</b></p></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>

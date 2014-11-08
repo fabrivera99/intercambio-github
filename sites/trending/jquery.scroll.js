@@ -1,0 +1,1 @@
+window.scrollTo($('.scroller').attr('scrollto'),0);

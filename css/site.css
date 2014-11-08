@@ -1,0 +1,223 @@
+@font-face{
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    font-family: Roboto-Regular;
+}
+
+
+
+
+.menu-li{
+	background-color: white !important;
+	border: none !important;
+	transition: background-color .4s;
+}
+.menu-li:hover{
+	background-color: #E0E0E0 !important;
+}
+.menu-subheader-main{
+	background-image: url('../img/background.png');
+}
+.menu-subheader-main .menu-subheader{
+	padding: 0;
+	height: 114px;
+	color: white;
+}
+.menu-subheader{	
+	padding: 20px;
+	color: black;
+}
+.user-img{
+	width: 70px;
+	height: 70px;
+	border-radius: 100px;
+}
+.corner-subheader{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+
+
+
+
+
+
+
+/* Button up */
+.ui-page-theme-b .ui-btn,
+html .ui-bar-b .ui-btn,
+html .ui-body-b .ui-btn,
+html body .ui-group-theme-b .ui-btn,
+html head + body .ui-btn.ui-btn-b,
+/* Button visited */
+.ui-page-theme-b .ui-btn:visited,
+html .ui-bar-b .ui-btn:visited,
+html .ui-body-b .ui-btn:visited,
+html body .ui-group-theme-b .ui-btn:visited,
+html head + body .ui-btn.ui-btn-b:visited {
+    -webkit-transition: background-color .3s, -webkit-transform .3s;
+    transition: background-color .3s, transform .3s;
+	background-color: #2196F3;
+	border-color: #2196F3;
+	color: #fff;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+}
+/* Button hover */
+.ui-page-theme-b .ui-btn:hover,
+html .ui-bar-b .ui-btn:hover,
+html .ui-body-b .ui-btn:hover,
+html body .ui-group-theme-b .ui-btn:hover,
+html head + body .ui-btn.ui-btn-b:hover {
+	background-color: 			#90CAF9 /*{b-bhover-background-color}*/;
+	
+}
+/* Button down */
+.ui-page-theme-b .ui-btn:active,
+html .ui-bar-b .ui-btn:active,
+html .ui-body-b .ui-btn:active,
+html body .ui-group-theme-b .ui-btn:active,
+html head + body .ui-btn.ui-btn-b:active {
+	background-color: 			#404040 /*{b-bdown-background-color}*/;
+	border-color:	 		#1f1f1f /*{b-bdown-border}*/;
+	color: 					#fff /*{b-bdown-color}*/;	
+}
+/* Active button */
+.ui-page-theme-b .ui-btn.ui-btn-active,
+html .ui-bar-b .ui-btn.ui-btn-active,
+html .ui-body-b .ui-btn.ui-btn-active,
+html body .ui-group-theme-b .ui-btn.ui-btn-active,
+html head + body .ui-btn.ui-btn-b.ui-btn-active,
+/* Active checkbox icon */
+.ui-page-theme-b .ui-checkbox-on:after,
+html .ui-bar-b .ui-checkbox-on:after,
+html .ui-body-b .ui-checkbox-on:after,
+html body .ui-group-theme-b .ui-checkbox-on:after,
+.ui-btn.ui-checkbox-on.ui-btn-b:after,
+/* Active flipswitch background */
+.ui-page-theme-b .ui-flipswitch-active,
+html .ui-bar-b .ui-flipswitch-active,
+html .ui-body-b .ui-flipswitch-active,
+html body .ui-group-theme-b .ui-flipswitch-active,
+html body .ui-flipswitch.ui-bar-b.ui-flipswitch-active,
+/* Active slider track */
+.ui-page-theme-b .ui-slider-track .ui-btn-active,
+html .ui-bar-b .ui-slider-track .ui-btn-active,
+html .ui-body-b .ui-slider-track .ui-btn-active,
+html body .ui-group-theme-b .ui-slider-track .ui-btn-active,
+html body div.ui-slider-track.ui-body-b .ui-btn-active {
+	background-color: 		#2196F3 /*{b-active-background-color}*/;
+	border-color:	 		#2196F3 /*{b-active-border}*/;
+	color: 					#fff /*{b-active-color}*/;	
+}
+/* Active radio button icon */
+.ui-page-theme-b .ui-radio-on:after,
+html .ui-bar-b .ui-radio-on:after,
+html .ui-body-b .ui-radio-on:after,
+html body .ui-group-theme-b .ui-radio-on:after,
+.ui-btn.ui-radio-on.ui-btn-b:after {
+	border-color:			#22aadd /*{b-active-background-color}*/;
+}
+/* Focus */
+.ui-page-theme-b .ui-btn:focus,
+html .ui-bar-b .ui-btn:focus,
+html .ui-body-b .ui-btn:focus,
+html body .ui-group-theme-b .ui-btn:focus,
+html head + body .ui-btn.ui-btn-b:focus,
+/* Focus buttons and text inputs with div wrap */
+.ui-page-theme-b .ui-focus,
+html .ui-bar-b .ui-focus,
+html .ui-body-b .ui-focus,
+html body .ui-group-theme-b .ui-focus,
+html head + body .ui-btn-b.ui-focus,
+html head + body .ui-body-b.ui-focus {
+	-webkit-box-shadow: 0 0 12px 	#22aadd /*{b-active-background-color}*/;
+	-moz-box-shadow: 0 0 12px 		#22aadd /*{b-active-background-color}*/;
+	box-shadow: 0 0 12px 			#22aadd /*{b-active-background-color}*/;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui-header{
+    height: 56px;    
+}
+.ui-header.ui-bar-b,.ui-footer.ui-bar-b {
+    color: #FFFFFF;
+	background-color: #2196F3;
+}
+.ui-bar-b,.ui-page-theme-b .ui-dialog-contain .ui-title {
+	border-bottom: 2px solid #2980b9;
+}
+
+.ui-btn-down-b .ui-btn-inner,.ui-btn-down-b .ui-btn-text .ui-link-inherit,.ui-listview .ui-btn-hover-b,.ui-input-search.ui-page-theme-b {
+	background-color: #2980b9;
+}
+
+.ui-page-theme-b form .ui-btn-down-b,.ui-page-theme-b form .ui-mini.ui-checkbox-on,.ui-page-theme-b form .ui-mini.ui-radio-on {
+	background-color: #3498db;
+}
+.points{
+    color: rgba(128, 128, 128, 0.69);
+    position: fixed;
+    right: 10px;
+    top: 17px;
+}
+.ui-page-theme-b .ui-btn:hover, html .ui-bar-b .ui-btn:hover, html .ui-page-theme-b .ui-btn:hover, html body .ui-group-theme-b .ui-btn:hover, html head+body .ui-btn.ui-btn-b:hover,
+.ui-page-theme-b .ui-btn:active, html .ui-bar-b .ui-btn:active, html .ui-page-theme-b .ui-btn:active, html body .ui-group-theme-b .ui-btn:active, html head+body .ui-btn.ui-btn-b:active {
+	color: #ffffff;
+	background-color: #42A5F5;
+}
+
+.ui-page-theme-b div.ui-input-text.ui-focus:after{background-color: #3498db;}
+.ui-page-theme-b div.ui-input-text.ui-focus:before{background-color: #3498db;}
+.ui-page-theme-b div.ui-input-text.ui-focus {border-bottom: 1px solid #3498db;}
+
+textarea.ui-page-theme-b.ui-input-text:focus {
+	border: 1px solid #3498db;
+}
+
+.ui-page-theme-b .ui-slider-bg.ui-btn-active,
+.ui-page-theme-b .ui-panel-open{
+	background-color: #3498db;
+}
+.ui-page-theme-b .ui-link,.ui-page-theme-b .ui-li a,.nativeDroidCards ul[data-nativedroid-plugin="twitter"] a {
+	color: #3498db;
+}
+
+.ui-page-theme-b .table-stroke tr:nth-child(even) .ui-link {
+	color: #2980b9;
+}
+
+.ui-slider-track .ui-btn.ui-slider-handle {
+	border: 10px solid rgba(255,208,56,0.3);	
+}
+
+.ui-slider-track .ui-btn.ui-slider-handle.ui-focus {
+	border: 10px solid rgba(255,208,56,0.5);	
+	box-shadow: 0px 0px 2px 0px #3498db;
+}
+
+.ui-slider-bg.ui-btn-active {
+	background-color: #2980b9;
+}
+
+
+progress::-moz-progress-bar {
+	background-color: #3498db;
+}

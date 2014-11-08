@@ -1,0 +1,231 @@
+<head>
+		<meta charset="ISO-8859-1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../../css/font-awesome.min.css" />
+        <link rel="stylesheet" href="../../css/jquery.mobile-1.4.5.css" />
+		<link rel="stylesheet" href="../../css/material-design-light.css" />
+		<link rel="stylesheet" href="../login/login.css" />
+
+		
+        <link rel="stylesheet" href="../../css/site.css"/>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="preguntas.css"/>
+	</head>
+	<body>
+		<div class="login-body" data-role="page" data-theme='a'>
+			<div class="panel-dal" data-role="panel" data-display="overlay" data-swipe-close="true" id="mypanel" data-theme="b">
+				<ul data-role="listview" class="menu-panel">
+					<li class="menu-subheader-main">
+						<div class="menu-subheader">
+							<img class="user-img" src="../../img/avatar-01.png">
+							<br>
+							<h1>
+								Fabrizzio Rivera
+							</h1>
+							<div class="corner-subheader"><span>438</span><span> puntos civicos</span></div>
+						</div>
+					</li>
+					<li class="menu-li" data-icon='false'>
+						<div class="menu-subheader">
+							<a style="color: black; text-decoration: none;" rel="external" href="../trending/index.html">Trending</a>
+						</div>
+					</li>
+					<li class="menu-li" data-icon='false'>
+						<div class="menu-subheader">
+							<a style="color: black; text-decoration: none;" rel="external" href="../../diputados.html">Diputados</a>
+						</div>
+					</li>
+					<li class="menu-li" data-icon='false'>
+						<div class="menu-subheader">
+							<a style="color: black; text-decoration: none;" rel="external">Enviar un post</a>
+						</div>
+					</li>
+					<li class="menu-li" data-icon='false'>
+						<div class="menu-subheader">
+							<a style="color: black; text-decoration: none;" rel="external" href="../../index.html">Cerrar Sesi&oacute;n</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		
+			<div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+				<a href="#mypanel" data-ajax="false" data-transition="turn"><img src="../../img/menu.png" alt="menu"></a>
+				<h1><span style="font-size: 24px; font-weight: 100;">Intercambio</span></h1>
+			</div>
+			<div style="padding: 25px; padding-top: 10px; text-align: center;">
+			<table width="100%">
+				<tr>
+					<input style="font-size: 20px;" placeholder="Titulo de pregunta" maxlength="25"></input>
+				</tr>
+				<tr>
+					<td class="pregunta">
+						<div class="panel-login">
+							<span style="font-weight: 500; font-size: 18px;">PRIMER PREGUNTA</span>
+							<hr><br>							
+							<table width="100%" style="text-align: center;">
+								<tr>
+									<td>
+										<span>¿</span>
+									</td>
+									<td>
+										<input placeholder="Pregunta"></input>
+									</td>
+									<td>
+										<span>?</span>
+									</td>
+								</tr>
+							</table>
+							<br>
+							<form action="demo_form.asp">
+								<table width="100%" style="text-align: center;">
+									<tr>
+										<td width="10%">
+											<input type="checkbox" name="x" value="x">
+										</td>
+										<td>
+											<input placeholder="Respuesta">
+										</td>
+									</tr>
+									<tr>
+										<td width="10%">
+											<input type="checkbox" name="x" value="x">
+										</td>
+										<td>
+											<input placeholder="Respuesta">
+										</td>										
+									</tr>
+								</table>
+								<br>
+								<a style="	text-decoration: none;
+										color: white;
+										font-weight: 200;" class="btn-danger btn">AGREGAR MAS RESPUESTAS</a>
+							</form>
+							<br>
+						</div>
+					</td>
+				</tr>
+				<tr>				
+					<td class="pregunta">
+						<div class="panel-login">
+							<span style="font-weight: 500; font-size: 18px;">SEGUNDA PREGUNTA</span>
+							<hr><br>							
+							<table width="100%" style="text-align: center;">
+								<tr>
+									<td>
+										<span>¿</span>
+									</td>
+									<td>
+										<input placeholder="Pregunta"></input>
+									</td>
+									<td>
+										<span>?</span>
+									</td>
+								</tr>
+							</table>
+							<br>
+							<input type="number">
+						</div>
+					</td>
+				</tr>
+				<tr>				
+					<td class="pregunta">
+						<div class="panel-login">
+							<span style="font-weight: 500; font-size: 18px;">TERCER PREGUNTA</span>
+							<hr><br>							
+							<table width="100%" style="text-align: center;">
+								<tr>
+									<td>
+										<span>¿</span>
+									</td>
+									<td>
+										<input placeholder="Pregunta"></input>
+									</td>
+									<td>
+										<span>?</span>
+									</td>
+								</tr>
+							</table>
+							<br>
+							<input type="range" name="points" min="0" max="20">
+						</div>
+					</td>
+				</tr>
+				<tr>				
+					<td class="pregunta">
+						<div class="panel-login">
+							<span style="font-weight: 500; font-size: 18px;">CUARTA PREGUNTA</span>
+							<hr><br>							
+							<table width="100%" style="text-align: center;">
+								<tr>
+									<td>
+										<span>¿</span>
+									</td>
+									<td>
+										<input placeholder="Pregunta"></input>
+									</td>
+									<td>
+										<span>?</span>
+									</td>
+								</tr>
+							</table>
+							<br>
+							<input type="color" name="favcolor">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="pregunta">
+						<div class="panel-login">
+							<span style="font-weight: 500; font-size: 18px;">QUINTA PREGUNTA</span>
+							<hr><br>							
+							<table width="100%" style="text-align: center;">
+								<tr>
+									<td>
+										<span>¿</span>
+									</td>
+									<td>
+										<input placeholder="Pregunta"></input>
+									</td>
+									<td>
+										<span>?</span>
+									</td>
+								</tr>
+							</table>
+							<br>
+							<form action="demo_form.asp">
+								<table width="100%" style="text-align: center;">
+									<tr>
+										<td width="10%">
+											<input type="checkbox" name="x" value="x">
+										</td>
+										<td>
+											<input placeholder="Respuesta">
+										</td>
+									</tr>
+									<tr>
+										<td width="10%">
+											<input type="checkbox" name="x" value="x">
+										</td>
+										<td>
+											<input placeholder="Respuesta">
+										</td>										
+									</tr>
+								</table>
+								<br>
+								<a style="	text-decoration: none;
+										color: white;
+										font-weight: 200;" class="btn-danger btn">AGREGAR MAS RESPUESTAS</a>
+							</form>
+							<br>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<br><br>
+			<a style="	text-decoration: none;
+										color: white;
+										font-weight: 200;" class="btn signin">SUBIR POST</a>
+			</div>
+		</div>
+	</body>

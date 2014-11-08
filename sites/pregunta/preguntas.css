@@ -1,0 +1,10 @@
+.panel-dal{
+	background-color: white;	
+}
+.pregunta{
+	box-shadow: 0 6px 5px 0 rgba(0, 0, 0, 0.30);
+	background-color: white;
+}
+.panel-login{
+	padding: 20px;
+}

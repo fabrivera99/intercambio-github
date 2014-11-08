@@ -1,0 +1,66 @@
+.body{
+	background-image: url('../../img/congreso.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.login-footer{
+	background-color: white;
+	width: 100%;
+	height: 64px;
+	position: fixed;
+	bottom: 0px;
+	display: inline;
+	text-align: center;
+	padding-top: 35px;	
+}
+.btn{
+	padding: 15px;	
+	border-radius: 4px;
+	box-shadow: 		0 6px 15px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+	transition: -webkit-box-shadow 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+.btn:hover{
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+.incog{
+	background-color: #E0E0E0;
+	display: inline;
+}
+.login{
+	background-color: #00BCD4;
+	display: inline;
+	color: white;
+}
+.reg{
+	background-color: #4CAF50;
+	display: inline;
+	color: white;
+}
+.signin{
+	background-color: #3F51B5;
+	color:white;
+	width: 100%;
+}
+
+.panel-login{
+	text-align: center;
+	padding: 35px;
+}
+
+.ui-input-text{
+	box-shadow: none;
+	background-color: inherit !important;
+	border-bottom: 3px solid #3F51B5;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	transition: border-bottom 0.3s;
+}
+.ui-focus {
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border-bottom: 3px solid #3F51B5 !important;	
+}
