@@ -14,6 +14,7 @@ body{
 	background-color: white !important;
 	border: none !important;
 	transition: background-color .4s;
+	-webkit-transition: background-color .4s;
 }
 .menu-li:hover{
 	background-color: #E0E0E0 !important;
